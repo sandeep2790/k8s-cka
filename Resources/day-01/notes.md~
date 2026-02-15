@@ -1,0 +1,22 @@
+K8S ..... Target ---> CKA
+
+Docker 
+Docker is platform that helps you build ,ship and run containers
+
+Container 
+it's a light weight sandbox environment as it not contain whole operating system(only share kernel) but contains all libraries, dependencies 
+
+Docker Flow
+Docker File ---> Docker image --push--> Docker Registry --pull--> dev/test/prod environment
+
+Q. why use container rather than virtual machine?
+container share infra but work isolated while virtual macine divide infra (resurces are under utilizaton)
+
+kubernetes 
+
+1.container orchestration tool  : It manages container lifecycle, scheduling, and scaling across a cluster of nodes.
+2.Self-Healing: Automatically restarts failed containers, replaces and reschedules them, and kills containers that don't respond to user-defined health checks.
+3.Automated Scaling: Scales application components up or down based on resource usage or demand.
+4.Service Discovery & Load Balancing: Exposes containers using DNS names or IP addresses and balances traffic.
+5.kubectl: The command-line tool used to interact with the Kubernetes API to deploy and manage applications. 
+
